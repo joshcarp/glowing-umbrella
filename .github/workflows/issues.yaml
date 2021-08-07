@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: joshcarp/gh-issue-automation@latest
+      - uses: joshcarp/gh-issue-automation@latest
         with:
           gh_token: ${GITHUB_TOKEN}
           gh_owner: "joshcarp"
