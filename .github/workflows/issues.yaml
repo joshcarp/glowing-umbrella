@@ -1,0 +1,14 @@
+name: github issue automation
+on:
+  schedule:
+    - cron:  '* * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: joshcarp/gh-issue-automation@latest
+        with:
+          gh_token: ${GITHUB_TOKEN}
+          gh_owner: "joshcarp"
+          gh_repo: "glowing-umbrella"
