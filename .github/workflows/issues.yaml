@@ -10,6 +10,6 @@ jobs:
     steps:
       - uses: joshcarp/gh-issue-automation@v0.0.4
         with:
-          gh_token: ${{ GITHUB_TOKEN }}
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
           gh_owner: "joshcarp"
           gh_repo: "glowing-umbrella"
