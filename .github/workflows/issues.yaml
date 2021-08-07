@@ -1,5 +1,6 @@
 name: github issue automation
 on:
+  workflow_dispatch:
   schedule:
     - cron:  '* * * * *'
 
