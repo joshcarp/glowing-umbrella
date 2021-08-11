@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: joshcarp/predicate@f8b45da3e2a3de5709b5925da204238878f1038b
+      - uses: joshcarp/predicate@9e61caf086d420b1adcd979c5a16395bcf63f1c9
